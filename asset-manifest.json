@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/WeatherOnline/static/css/main.aef899ac.css",
+    "main.js": "/WeatherOnline/static/js/main.a1c4f55d.js",
+    "static/js/787.985dcd29.chunk.js": "/WeatherOnline/static/js/787.985dcd29.chunk.js",
+    "index.html": "/WeatherOnline/index.html",
+    "main.aef899ac.css.map": "/WeatherOnline/static/css/main.aef899ac.css.map",
+    "main.a1c4f55d.js.map": "/WeatherOnline/static/js/main.a1c4f55d.js.map",
+    "787.985dcd29.chunk.js.map": "/WeatherOnline/static/js/787.985dcd29.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aef899ac.css",
+    "static/js/main.a1c4f55d.js"
+  ]
+}
