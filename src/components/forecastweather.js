@@ -25,16 +25,16 @@ class Forecast extends React.Component {
                         <br>
                         </br>
                         <div className='degree'>
-                            <p className='forecast-item-temperature'>Max:{f.temp.max}°C</p>
-                            <small className='forecast-item-temperature'>Min:{f.temp.min}°C</small>
+                            <p className='forecast-item-temperature'>Max:{Math.round(f.temp.max)}°C</p>
+                            <small className='forecast-item-temperature'>Min:{Math.round(f.temp.min)}°C</small>
 
                         </div>
                         <br>
                         </br>
                         <br>
                         </br>
-                        <p className='forecast-item-'>Wind:{f.wind_speed}km/h</p>
-                        <p className='forecast-item-'>Wind Direction:{f.wind_deg}º</p>
+                        <p className='forecast-item-'>Wind:{Math.round(f.wind_speed)}km/h</p>
+                        <p className='forecast-item-'>Wind Direction:{Math.round(f.wind_deg)}º</p>
 
                     </div >
                 </div>

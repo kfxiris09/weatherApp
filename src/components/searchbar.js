@@ -59,7 +59,7 @@ class SearchBar extends React.Component {
                                 <a href="index.html" className="branding">
                                     <img src={Logo} alt="" className="logo" />
                                     <div className="logo-type">
-                                        <h1 className="site-title">XGeeks Weather</h1>
+                                        <h1 className="site-title">Weather App</h1>
                                         <small className="site-description">Alexandre Renda</small>
                                     </div>
                                 </a>

@@ -86,12 +86,12 @@ class App extends React.Component {
     }
 
     this.setState({
-      temp: weatherRes.data.main.temp,
+      temp: Math.round(weatherRes.data.main.temp),
       city: weatherRes.data.name,
       country: weatherRes.data.sys.country,
-      humity: weatherRes.data.main.humidity,
-      wind: weatherRes.data.wind.speed,
-      direction: weatherRes.data.wind.deg,
+      humity: Math.round(weatherRes.data.main.humidity),
+      wind: Math.round(weatherRes.data.wind.speed),
+      direction: Math.round(weatherRes.data.wind.deg),
       icon: weatherRes.data.weather[0].icon,
       dailyforecast: forecastRes.data.daily,
       locationsSet: copy
@@ -134,13 +134,6 @@ class App extends React.Component {
 
 
             </div>
-          </div>
-
-          <div>
-
-            <CitiesList citiesList={this.state.locationsSet}
-              tira={(e) => this.onArrayDelete(e)}
-            />
           </div>
 
 

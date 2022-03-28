@@ -31,7 +31,7 @@ class CitiesList extends react.Component {
             <div onSubmit={(e) => this.onFormSubmit(e)}>
                 {array.map(element => {
                     return (
-                        <div className="location">{element}
+                        <div className="forecast-content">{element}
                             <button onClick={() => this.verLocal()} >Ver</button>
                             <button onClick={(element) => this.onArraydelete(element)}>Remove</button>
                         </div>
